@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
+import Typography from "@material-ui/core/Typography";
 
 function App() {
   return (
     <div>
-      <h1>Bookkeeper</h1>
+      <Typography variant="h4" align="center">
+        Bienvenido a DDrop
+      </Typography>
+      <Typography align="center">
+        Para subir tus archivos de forma simple a drive,<br></br>
+        puedes hacer Login a traves de Google.
+      </Typography>
       <nav
         style={{
           borderBottom: "solid 1px",
