@@ -6,10 +6,16 @@ import UploadIcon from '@mui/icons-material/Upload';
 function App() {
   return (
     <div>
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography 
+       variant="h4" 
+       align="center" 
+       gutterBottom
+      >
         Bienvenido a DDrop
       </Typography>
-      <Typography color="grey" align="center">
+      <Typography 
+       align="center"
+      >
         Para subir tus archivos de forma simple a drive,<br></br>
         puedes hacer Login a traves de Google.
       </Typography>
